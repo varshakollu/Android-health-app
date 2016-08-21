@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/background"
+>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="right"
+        android:onClick="onclickhome"
+        android:src="@drawable/ic_home" />
+
+
+    <Button
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="Muffin Top "
+    android:id="@+id/b1"
+    android:layout_marginTop="10dp"
+    android:background="#ffffff"
+    android:layout_gravity="center" />
+
+
+
+    <Button
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="Leg workout"
+    android:id="@+id/b2"
+    android:background="#ffffff"
+    android:layout_marginTop="5dp"
+    android:layout_gravity="center" />
+
+    <Button
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="thigh workout"
+    android:id="@+id/b3"
+    android:background="#ffffff"
+    android:layout_marginTop="5dp"
+    android:layout_gravity="center" />
+
+<Button
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="Abb workout"
+    android:id="@+id/b4"
+    android:background="#ffffff"
+    android:layout_marginTop="5dp"
+    android:layout_gravity="center" />
+
+<Button
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="stomach workout"
+    android:id="@+id/b5"
+    android:background="#ffffff"
+    android:layout_marginTop="5dp"
+    android:layout_gravity="center" />
+
+<Button
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="arm workout"
+    android:id="@+id/b6"
+    android:background="#ffffff"
+    android:layout_marginTop="5dp"
+    android:layout_gravity="center" />
+
+<Button
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="six pack"
+    android:id="@+id/b7"
+    android:background="#ffffff"
+    android:layout_marginTop="5dp"
+    android:layout_gravity="center" />
+
+<Button
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="cardio"
+    android:id="@+id/b8"
+    android:background="#ffffff"
+    android:layout_marginTop="5dp"
+    android:layout_gravity="center" />
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:layout_gravity="right"
+        android:id="@+id/enter"
+        android:src="@drawable/ic_log"
+        android:layout_above="@+id/textView6"
+        android:layout_alignLeft="@+id/search"
+        android:layout_alignStart="@+id/search" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="125dp"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_search"
+        android:id="@+id/search"
+        android:layout_below="@+id/enter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+   <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="  LOG YOUR INTAKE"
+        android:fontFamily="times new roman"
+        android:textSize="20dp"
+        android:background="#ffffff"
+       android:id="@+id/textView6"
+       android:layout_centerVertical="true"
+       android:layout_alignLeft="@+id/textView"
+       android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text=" SEARCH FOR ITEMS"
+        android:fontFamily="times new roman"
+        android:textSize="20dp"
+        android:background="#ffffff"
+        android:id="@+id/textView"
+        android:layout_below="@+id/search"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="FOOD TRACKER"
+        android:id="@+id/textView13"
+        android:fontFamily="times new roman"
+        android:textSize="35dp"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

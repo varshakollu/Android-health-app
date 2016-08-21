@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="right"
+            android:onClick="onclickhome1"
+            android:src="@drawable/ic_home"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DIARY"
+                android:id="@+id/textView3"
+                android:textSize="30dp"
+                android:focusableInTouchMode="false"
+                android:fontFamily="times new roman"
+                android:textColor="#060606"
+                android:layout_below="@+id/imageView"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Name of Food:"
+                android:id="@+id/textView4"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="55dp"
+                android:fontFamily="times new roman"
+                android:textColor="#060606"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Calorie content:"
+                android:id="@+id/textView5"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/editTextName"
+                android:fontFamily="times new roman"
+                android:textColor="#060606"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Date:"
+                android:id="@+id/textView6"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/textView5"
+                android:fontFamily="times new roman"
+                android:textColor="#060606"
+                />
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextName"
+                android:layout_alignBottom="@+id/textView4"
+                android:layout_toRightOf="@+id/textView4"
+                android:layout_alignRight="@+id/editTextCalorie"
+                android:layout_alignEnd="@+id/editTextCalorie" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editTextCalorie"
+                android:layout_above="@+id/textView6"
+                android:layout_toRightOf="@+id/textView5"
+                android:layout_toEndOf="@+id/textView5" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/editTextDate"
+                android:hint="YYYY-MM-DD"
+                android:layout_above="@+id/editTextNote"
+                android:layout_toRightOf="@+id/textView6"
+                android:layout_toEndOf="@+id/textView6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Note:"
+                android:id="@+id/textView7"
+                android:layout_below="@+id/textView6"
+                android:layout_marginTop="25dp"
+                android:fontFamily="times new roman"
+                android:textColor="#060606"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextNote"
+                android:layout_alignBottom="@+id/textView7"
+                android:layout_toRightOf="@+id/textView7"
+                android:layout_alignRight="@+id/buttonView"
+                android:layout_alignEnd="@+id/buttonView" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="save"
+                android:id="@+id/buttonSave"
+                android:onClick="insert"
+                android:background="#ffffff"
+                android:layout_marginTop="61dp"
+                android:layout_below="@+id/textView7"
+                android:layout_toRightOf="@+id/textView7"
+                android:layout_toEndOf="@+id/textView7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewResult"
+                android:layout_below="@+id/buttonSave"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View"
+                android:id="@+id/buttonView"
+                android:onClick="see"
+                android:background="#ffffff"
+                android:layout_alignTop="@+id/buttonSave"
+                android:layout_toLeftOf="@+id/imageView"
+                android:layout_toStartOf="@+id/imageView" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

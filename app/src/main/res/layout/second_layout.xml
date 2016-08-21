@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+    <ImageView
+    android:layout_width="125dp"
+    android:layout_height="125dp"
+    android:id="@+id/imageView1"
+    android:layout_gravity="center"
+    android:src="@drawable/step"
+    android:layout_marginTop="-100dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Steps since reboot:"
+        android:id="@+id/textView11"
+        android:fontFamily="times new roman"
+        android:textColor="#060606"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/count"
+        android:layout_alignTop="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp" />
+</RelativeLayout>

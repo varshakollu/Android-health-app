@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Insight Health</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="fatsecret_consumer_key">8bb11b48638b4bd79a9b43551b2a5f30</string>
+    <string name="fatsecret_consumer_secret">05265d74537847fcb922d3ce49c4724f</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_first2">First2</string>
+    <string name="title_activity_first_fragment">FirstFragment</string>
+
+    <string-array name="gender">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <string name="title_activity_men_video">menVideo</string>
+    <string name="title_activity_women_video">womenVideo</string>
+    <string name="title_activity_search_options">SearchOptions</string>
+    <string name="title_activity_search_barcode">SearchBarcode</string>
+    <string name="title_activity_search_qr_code">SearchQrCode</string>
+    <string name="title_activity_search_ocr">SearchOcr</string>
+    <string name="title_activity_search_db">SearchDB</string>
+    <string name="title_activity_db_auth">DBAuth</string>
+    <string name="textColumns">Name \    \    \    \    \    \    \    \     \    \  \  \  \  \ Calorie  \    \  \    \ \  \    \    \ \   \  \    \    \ \     \    \  \  \  \  \ \  \ \ \ \   \ Date</string>
+
+</resources>

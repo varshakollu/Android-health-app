@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_layout"
+            android:icon="@drawable/ic_calc"
+            android:title="BMI Calculator" />
+        <item
+            android:id="@+id/nav_second_layout"
+            android:icon="@drawable/ic_step"
+            android:title="Step Counter" />
+        <item
+            android:id="@+id/nav_third_layout"
+            android:icon="@drawable/ic_intake"
+            android:title="Intake Tracker" />
+        <item
+            android:id="@+id/nav_sixth_layout"
+            android:icon="@drawable/ic_alarm"
+            android:title="Diet Buddy" />
+        <item
+            android:id="@+id/nav_fourth_layout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Health Videos" />
+        <item
+            android:id="@+id/nav_fifth_layout"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Health Images" />
+
+    </group>
+</menu>
